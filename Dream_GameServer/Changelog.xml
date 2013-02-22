@@ -1,0 +1,433 @@
+<!--Fixed Updates on L2JDream Source Code-->
+<Revision-0-276>
+Fixado SubClass? Quest Bug.
+Adicionado Config para Adicionar Sub Clas sem a quest Fates Whisper.
+Adicionado Checagem para corriger o Pickup.
+Adicionado Mod Restart Automatico.Correção temporaria para Quest 408_PathToElvenwizard
+Sincronizando com o Core (Confusion Skills).
+Fixado Confusion Skills (L2OFF)
+Fixado Summon Skills Flag e dano no Owner.
+Fixado Baium Angels hit Baium.
+Reformulamento Total dos Summons.
+Reformulamento Das Formulas das Skills.
+Reformulamento Dos efeitos das skills.
+Fixado Erro no QuestState?.
+Reformulamento das AI.
+Fixado checkIfPvP()
+Fixado getEnemyClan()
+Fixado canAttackCharacte()
+Fixado TARGET_FRONT_AREA, TARGET_BEHIND_AREA.
+Fixado TARGET_AREA_CORPSE_MOB, TARGET_CORPSE_MOB.
+Fixado checkForAreaOffensiveSkills().
+Fixado addDamage(L2Character attacker).
+Fixado RequestActionUse?
+Fixado EffectConfuseMob?, EffectSignetAntiSummon?, EffectSignetMDam, EffectSignetNoise?.
+Adicionado Nova ai Data L2NpcAIData().
+Adicionado metodo onEvtEvaded para Summons e Characters.
+Fixado método isInsideRadius para os summons checando GeoData?.
+Fixado avoidAttack para summons.
+Adicionado método canInteract para checar os status do char.
+Adicionado método isInFrontOf para frontstab skills.
+Adicionado método canTarget(player) para Summons & Pet.
+Adicionado nova Zone L2NoStoreZone.
+Fixado recarregamento do SS ao trocar de arma( Agora apenas as armas).
+Fixado frontstab
+Adicionado todos os @Override
+Clean up source
+Fixado caso sensitivo nas Admin Html
+Corrigido NPE setEnchant
+Organizado admin_command_access_rights.xml
+Deletado Pasta Faenor
+Fixado NextActionAttack? (L2OFF)
+Fixado Recharge SS (L2OFF)
+Fixado Entregar Skill Shadow Sense (L2OFF)
+Adicionado Todas as restrições de inObserverMode()
+Fixado AutoSoulShot? Olly, Pet
+Removido Double Menssagem ao ativar SS
+Adicionado Msg ao consumo de Scroll (L2OFF)
+Fixado o Refuncionamento das AI (L2OFF)
+Fixado Potion interromper o Cast (L2OFF)
+Adicionado Faenor ao Diretorio automatico
+Fixado SpecialCamera? do Valakas
+Build Otimizado
+Fixado Atack Speed Bug
+Corrigindo bug Faenor e arrumando Account Manager
+Adicionando 2 novos Build para Linux e 1 para teste rapido do Core
+Implementando Sistema Account Manager
+Deletando Libraries desnecessarias e Criando o Register.sh para funcionamento em Linux
+SQL Update apenas para corrigir problemas nas Dyes.
+Adicionado novo método useEquippableItem.
+Removido restrição para não equipar nada com Formal Wear.
+Removido restrição de ter que parar de bater para mudar de arma.
+Fixado equipar Formal Wear com CursedWeapon.
+Fixado Consume Mana Itens.
+Adicionado WeaponEquipTask.
+Fixado spawn Mobs Noturnos e Diurnos.
+Fixado poder dar restart teleportando e usando Skill (L2OFF).
+Fixado Dye mostrar corretamente qual foi adicionada.
+Fixado Dyes +1 & -1.
+Fixado Dyes +4 & -5.
+Fixado Dyes +5 & -6.
+Fixado reuse time para Skills.
+Fixado ver os Stadium mesmo sem luta em progresso.
+Adicionado novo Packet ExOlympiadUserInfoSpectator.
+Fixado Announcements like L2OFF.
+Fixado SiegeDate = siegeDate.
+Fixado Zone saida norte de giran agora funcionando normalmente.
+Adicionado Valakas Ai agora funcionando as cameras corretamente.
+Removido configurações em .ini
+Adicionado configurações em .propertie
+Fixado bug com o Augment: remover a quantidade correta de gemstone e verificar se tem a quantidade correta.
+Removido Skills Tyranossaurus.
+Fixado AttackBug.
+Fixado PrivateStoreBuy não pode comprar armas enchantadas.
+Fixado char AIO travar ao clicar no Class Master.
+Fixado mostrar quest In Progress e Done nos NPC's.
+Fixado Scroll of Ressuction Pet.
+Fixado TARGET_CORPSE_PET.
+Removido restrição de apenas o dono ressucitar seu pet.
+Fixado Dance of Warrior e Vampiric Rage absorver HP.
+Atualizado Siege System (L2OFF)
+Adicionado Siege Sounds do Inicio (The Castle Siege as Begun!) e Fim (The Castle Siege is Over!)
+Corrigido todas as Mensagens (L2OFF).
+Fixado Spawn das FlameTower.
+Fixado Remoção das FlameTowers.
+Fixado Reputação ao pegar Castle.
+Fixado Characters normais aparecer a mensagem: "Entering world in invunerable mode".
+Atualizado ShortCut.
+Atualizado Tax rate control
+Atualizado Regional manor system control
+Atualizado Castle treasure control
+Atualizado Siege time modifier
+Atualizado Items production
+Atualizado Doors management
+Atualizado Doors/walls upgrades && traps
+Atualizado isDateInSealValidPeriod
+Atualizado upgradeDoor
+Atualizado scheduledStartSiegeTask
+Atualizado setNextSiegeDate();
+Atualizado regTimeEnd
+Atualizado regTimeOver
+Atualizado getIsTimeRegistrationOver()
+Atualizado getTimeRegistrationOverDate()
+Atualizado endTimeRegistration
+Atualizado CrownManager
+Atualizado showBuyWindow
+Atualizado isWall
+Atualizado upgradeHpRatio
+Atualizado getMaxHp()
+Chamberlain :
+Fixado Coroas agora são pegas no NPC.
+Fixado Todas as funções do Castle no NPC.
+Fixado Court Magician funcionando.
+Fixado Update Siege Time.
+Fixado Agora pode-se mudar a hora da siege.
+Fixado FlameTower?
+Fixado Announces
+Fixado Siege Zones
+Fixado Chamberlain
+Fixado isInSiege
+Recontrução das Zones :
+Adicionado Novas Restrições.
+Atualizado BossZone
+Atualizado ArenaZone
+Atualizado CastleTeleportZone
+Atualizado DamageZone
+Atualizado DerbyTrackZone
+Atualizado JailZone
+Atualizado NolandingZone
+Atualizado ScriptZone
+Atualizado SwampZone
+Atualizado TownZone
+Removido Configs:
+MASTERY_PENALTY
+LEVEL_TO_GET_PENALITY
+MASTERY_WEAPON_PENALTY
+LEVEL_TO_GET_WEAPON_PENALITY
+(Configs não existentes no L2OFF, portanto foram ocultas no core)
+Fixado Npc Atacable
+Fixado validateCapacity
+Fixado getHennaList()
+Fixado getBaseLocation()
+Fixado dupla mensagem de dano.
+Fixado Duplicação de Itens no inventario.
+Fixado Skills que consomen ITEM mostrar o item que estar consumindo (L2OFF).
+</Revision-0-276>
+
+<!----------------------------------------------------------------------->
+
+<Revision-277-359>
+Iniciando correções dos SiegeTime?.
+Fixado Erros ao Dar RR no servidor.
+Fixado Problemas com as Quest que necessitam atacar os Mobs.
+Fixado problemas com os Mobs Agressivos.
+Atualização Arquivos .java
+Fixado Problema com PrivateStoreBuy? não comprar Armas Enchantadas.
+Fixado Summons tambem subir nivel dos soul crystal não sómente os characters.
+Fixado ON_RANGE_ENTER Mobs (MoS).
+Atualizando Buffer
+Adicionado SQL Update para system revisão [236]
+SQL Update para mos_clan Mobs de Monasterio
+Fixado Quests
+q504_CompetitionfortheBanditStronghold
+q505_BloodOffering
+q655_AGrandPlanforTamingWildBeasts
+Atualizando scripts.cfg
+Fixado Erro Quest Subclasse.
+Atualização Village_master
+Monastery Update falas dos Mobs funcionando como no L2OFF.
+Update GustavAi? setInitialState para evitar erro no GS.
+Update NurkaAi? setInitialState para evitar erro no GS.
+Fixado problema com o Observer da Olympiada sem Erros agora >.<
+Fixado Html Register para Fortress Of Resistance
+Fixado erro Database Instaler
+Fixado Exploit de mudar o Lider do Clan e poder adicionar o dobro de mercenarios nos Castle.
+correções Clã + aly.
+Correção de bugs de aliança:
+Crest de Ally fixo não atualiza quando um clã juntou-se um aliado.
+Crest de Ally fixo não remove quando um clã deixou um aliado.
+/allyinfo comando mostrou a mensagem de sistema feio. Agora bom aparece uma janela para obter informações da Aliança, incluindo clãs e detalhes do clã.
+Correção de bugs de clãs:
+Fixo clã status não carregar quando conectado (se você direcionou a alguém, você não verá seu status., por exemplo, Visconde.
+Fixo guardas reais e ordem de cavaleiros líderes foram escutas.
+Fixo não é possível alterar a liderança na guarda real / ordem dos cavaleiros.
+Fixo, não é possível renomear sub-unidades de clã.
+Adicionado opção para renomear os guardas reais, corrigido renomear opção para ordem de cavaleiros.
+Adicionado opção para mudar os líderes da guarda real e ordem dos cavaleiros.)
+Sincronizando com Correções do Commit anterior [298]
+Adicionando Database Installer para linux.
+Removendo configurações não usadas.
+Update AnaysAI
+Update BenomAi?
+Fixado Dissolve Clan Exploit
+Fixado Auction Exploit.
+Membros da Academia não participão da Guerra Entre Clans.
+NPE Fixado.
+Fixado dupe Items Quest.
+Fixado desequipar o Item se estiver equipa ao completar a Quest.
+Update Spawn protection Não Funcionar se o Char estiver em PEACE_ZONE '-'
+Fixado Terminar A Guerra entre Clans se os membros ainda estiverem em guerra.
+Cannot cancel war while members are fighting.
+Removido Config AUTO_LOOT_CHAMPION == AUTO_LOOT
+Fixado NPE e Travamento do Servidor.
+Fixado HACKING_TOOL Msg >.<
+Fixado Power Skill Paralizis (Orfem SKILL)
+Fixado erro GS Quest Nobles
+Removendo Fortress SiegeEngine? não funciona no Interlude.
+Pequena Correção Html
+Remoção dos Fortress & Update para Suporte SubVersion? 1.7.x
+Finalizado ClanSystem? Funcionando = L2OFF
+Removendo Fortress commit Final '-'
+Update ClanSystem? Retail HTML Clan Create & Manage L2OFF
+Removendo L2FortWyvernManager NPC Type
+Correção Quest 109_InSearchOfTheNest
+Remoção dos Siege Hall presentes para implementação da Nova Sieagable Hall Engine L2OFF
+Fixado Quest 501
+Fixado Siege Time ao Mudar pelo Charmberlain
+Adicionado Fortress Of Dead Script
+Adicionado HellMans? AI
+Fixado Academy podem usar Functions.
+Adicionado Delay nas Skills dos archer's dos Castle
+Adicionado Delay para as Bosses SKills
+Fixado Anakim Spawn & Teleport
+Mirage Skill Restriction
+Fixado Ao adicionar Membros do Clan as Skills ja aplicarem os Bonus
+Adicionado Restrictions Angelic Icon
+Fixado todas as Skills sem Magic level Xml 0000-0099.xml Part&sup1;
+Fixado todas as skills sem Magic Level Xml 0100-0199.xml
+Fixado Revivel % para usar e adicionado Retail msg
+Only usable if HP is 10 percent or lower.
+Fixado Summons em Duel ao terminar parar de bater e usar skill
+Summons.
+HotSpring?
+Fixado Erros no GS
+Removendo Spawn Bloody Lord Nurka
+Fixado todas as Skills sem Magic level Xml 0200-0299.xml
+Fixado todas as Skills sem Magic level Xml 0300-0399.xml
+</Revision-277-359>
+
+<!----------------------------------------------------------------------->
+
+<Revision-360-380>
+Temporary fix for the summon bug.
+Skill sonic buster fixed, Now work fine.
+Cancel don’t effect celestial shield, Example! If a player have the effect of celestial shield, The cancel don’t work.
+Organized Imports.
+Removed some warnings.
+Update message about the Distance of Doors.
+Added announce olympiad game.
+Update olympiad configs properties.
+Fixado Bug quanto ao RR não salvar as coordenadas..
+Fixed bug with long distance
+Update status when a char drops his cursed weapons.
+Removendo MSG You left "TownName"
+Quest 641 L2OFF
+Fixado Não pode atacar Door de ClanHall
+Fixado ClanHall/Castle Doors
+Fixado Problema ao tentar vender o ClanHall
+Removendo MSG ao entrar e sair do ClanHall
+CursedWeapon Update.
+Adicionado MSG ao entrar no jogo.
+Fixado comprar Item com CursedWeapon Equipada (L2OFF)
+Movendo novamente Status ao player entrar no jogo para EnterWorld
+Nova correção em teste...
+Sincronização final do Status ao player entrar no jogo
+</Revision-360-380>
+
+<!----------------------------------------------------------------------->
+
+<Revision-381-416>
+Fixado ter que dar RR para aparecer os itens de Quest.
+Removendo as MSG ao entrar e sair das Arena.
+Update Zaken Zone
+Sincronizando com commit anterior
+Auction Update : Removendo custom MSG. Corrigido o display as Grade. …
+Fixado erro ao comprar seeds do manor.
+Fixado Privilégios para mecher no Manor.
+Fixado manor em Floran Village.
+Correção RR em Oly !
+Core Suporte para L2NoStoreZone (L2OFF)
+Removendo MSG dos AIo sair da cidade.
+Fixado Saida Sul de Dion.
+Reconstrução das Zone de Dion.
+Fixado Erro no GS missing Zone for Zaken.
+Fixado remover os shot charged ao iniciar olympiada
+Fixado desativar auto shot dos Summon ao dar Unsummon. Update Aio.
+Fixado NPE notifyAggroRangeEnter Fixado NPE showError
+Adicionado para Admin poder usar kill em target invul.
+Fixado PC senddamage MSG invulneravel attack was block.
+Fixado Summon senddamage MSG invulneravel attack was blocked. Fixado MSg …
+Fixado stop cast ao remover augment Skill. Prevenção para não ressucitar …
+Adicionado MSG ao entrar no jogo invul, invisible, silence mode apenas …
+Abort attack/cast ao adquirir status de raid curse.
+Reconstrução das Zone de Giran 100%
+Cabale buffers não continuam quando Gm esta invul.
+Removido restrição de NPC invul. Adicionado Config para setar NPCs Invul …
+Adicionado Config para ativar/desativar o Flood Protection.
+Fixado Range para comprar Item. Ao iniciar janela de compra se afastar não …
+Fixado Range para vender Item. Ao iniciar janela de venda se afastar não …
+Fixado problemas com NPCs darem respawn mortos. Adicionado setIsDead. …
+Fixado rift unspawn.
+</Revision-381-416>
+
+<!----------------------------------------------------------------------->
+
+</Revision-417-500>
+
+Add Changelog File on trunk dir.
+Fixado Siege ao modificala com o Chamberlain.
+Fixado Erros no GS sobre agrorange.
+Fixado não poder adicionar Item se o Trade estiver confirmado.
+Adicionado Retail MSG ao entrar e sair de peace zone.
+Corrigido o valor de pontos ao matar em Clan War.
+Fuck Russians Trade Exploits Fixed…
+Sinc commit anterior
+If a skills isToggle will be not removed when a player are using skill …
+Char high level can't heal to a player low level for kills a BOSS.
+Fixado Oracleteleport
+Pequena correção no trade.
+Adicionado MSG YOU_DID_S1_DMG Para Doors e ControlTowers?.
+Adicionado Check para L2Walker.
+Fixado TradeRequest? ² MSG.
+Target is in refusal Mode.
+Fixado TARGET_AREA Skills usadas pelos Summons.
+Fixado MSG SOUL_CRYSTAL_ABSORBING_REFUSED sem ter Soul Crystal no Inventario.
+Fixado Som de sucesso ao Finalizar compra/venda em Npc (L2OFF).
+Doors Retail System (L2OFF).
+# Clan Halls não mostram HP.
+# Castle não mostram Hp apenas em Siege.
+# Nenhuma Door é atacable.
+# Castle Doors são atacaveis sómente durante a siege.
+Retail Equip & Unequip Item (L2OFF).
+# Equipar e desequipar Items Atacando.
+# Equipar e desequipar Items movendo-se.
+Olympiad Update .-.
+Fixado animação ao almentar o nivel do Clan (L2OFF).
+Fixado animação ao Criar clan (L2OFF).
+Fixado Hit time para Summonar Pet.
+Fixado Quest 503
+Fixado //gmshop BUG
+Tradução Quest Sailren
+Fixado bug Cp Potion usar e trocar de subClass skill retornar sem delay.
+Modificando a cor do executaveis para Vermelho .-.
+Adicionado 2 Mods usaveis :
+# Custom level on new character.
+# Custom spawn location for new characters.
+Deletando quest duplicada
+Fixando items quests Primeval
+Sincronizando Commit anterior
+Traduzindo Quest q11_ElrokianHuntersProof
+Sincronizando com commit anterior
+Compatibilidade com Linux
+Fixado mais algumas Skills sem magic level
+Compatibilidade com Linux ²
+Compatibilidade com Linux ¹
+Corrigindo Flood de item
+Adicionado restrição novamente para não poder equipar nada com Formal Wear.
+Pequena correção no Linux
+Fixado range whit Bow
+Removendo bug Skills
+Fixado exploit ao equipar um item overchanted.
+Fixado Trade
+Fixado Baium (L2OFF)
+Adicionado Acces para AdminHide? command.
+Adicionado nova GM SPEED Skills LVL 1~5.
+Sincronizando com commit anterior.
+Adicionado Retail Admin command :
+* admin_hide on
+* admin_hide off
+Admin Command Engine L2OFF :
+* SYS menssagens adicionadas.
+* Correções em varias funções de comandos.
+* Adicionado Retail gmspeed 1~5 (L2OFF).
+* Traduzindo AdminGeodata?.
+* Fixado Comandos com Player Offline.
+Fixado .gotolove isIn7sDungeon() :
+* Your Partner is in a Seven Signs Dungeon and you are not in the winner Cabal!
+* Your Partner is in a Seven Signs Dungeon and you are not registered!
+Fixado /mount se o Player Estiver Flag (L2OFF).
+Adicionado ao Reiniciar o Servidor parar as FourSepulcher?.
+Fixado Double Drop/Spoil? Bug
+Fixado Mdam TARGET_AREA_CORPSE_MOB
+Adicionado método stop() ao FourSepulchersManager?.
+Fixado método notifyQuestEventSkillFinished.
+Fixado PVPFlag com HitSimples?.
+Fixado PVPFlag com HitMagico?.
+Fixado Healar Player Flag ficar Flag.
+Patch L2OFF :
+* Adicionado ao clicar no NPC mostrar sua HTML.
+* Ao Clicar no NPC de Quest Mostrar Sua Quest.
+* Removido Null check invalidos.
+* Adicionado config faltando ALT_DEV_NO_QUESTS.
+Fixado PVPFlag :
+* updatePvPFlag.
+* Ao morrer não remover o PvpFlag?.
+* Removido Custom Fix .-.
+* Retail onPLayerEnter GM/ADM (L2OFF).
+* Update AIO Removido NULL Check para SKills.
+Adicionado Retail MSG ao Quebrar Portões/Paredes? dos Castelos.
+Fixado Update Packets de Validação active_char.
+Fixado ao entrar no Olympiad Stadium remover o PvpFlag? (L2OFF).
+Fixado atualizar a quest no database.
+Adicionado kabokula, tapirawa, shabonoba T-Rex Skills ao Equipar Elrokian Trap (L2OFF).
+Pequena correção sobre montar em 1 pet com PvpFlag?.
+Fixado Remover AIO_ITEM ao Acabar o Periodo de Aio.
+NpcInfo? & PetInfo? , Flag e Karma de acordo com o Owner.
+Movimentando L2Summon para L2SummonInstance ,Karma & PvpFlag?.
+Removido método não usado canAttackCharacter.
+Finalizado Limpeza Skills :)
+Limpando Skills 3° Parte
+Limpando Skills 2° Parte
+Pequena Correção
+Removido 1° parte Skills castRange" val="-1" effectRange" val="-1"
+Fixado Skills castRange" val="-1" effectRange" val="-1"
+Correção Quests : 503, 616, 663
+Fixado Mobs retornarem para os Spawns após levalos para longe.
+Fixado Raid Minions retornarem para spawn.
+Fixado Gordon não retornar para o spawn.
+Adicionado isNoRndWalk para as instances.
+Limpando
+Removendo Resource warnings
+Attack NPC on Peace Zone like L2OFF.
+Removendo proteção de usar /unstuck & Scrolls de Scape em Zonas de Boss (L2OFF).
+</Revision-417-500>
