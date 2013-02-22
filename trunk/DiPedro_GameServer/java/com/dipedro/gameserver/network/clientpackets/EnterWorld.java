@@ -379,8 +379,8 @@ public class EnterWorld extends L2GameClientPacket
 		
 		sendPacket(new SystemMessage(SystemMessageId.WELCOME_TO_LINEAGE));
 
-		activeChar.sendMessage("This server uses L2JDream, a project founded by L2Chef and");
-		activeChar.sendMessage("developed by the L2JDream Dev Team at l2jdream.com");
+		activeChar.sendMessage("Bem vindo ao L2 Senju, usa um projeto fundado por L2Chef e");
+		activeChar.sendMessage("desenvolvido por L2JDream Dev Team em l2jdream.com");
 		
 		SevenSigns.getInstance().sendCurrentPeriodMsg(activeChar);
 		Announcements.getInstance().showAnnouncements(activeChar);
